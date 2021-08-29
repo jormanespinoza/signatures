@@ -1,5 +1,6 @@
 const searchInput = document.getElementById('search')
 const trTags = document.querySelectorAll('tbody tr')
+const h1 = document.querySelector('h1')
 
 const search = () => {
   const searchInputValue = searchInput.value.toLowerCase()
@@ -22,3 +23,7 @@ const search = () => {
 }
 
 searchInput.addEventListener(('keyup'), search)
+h1.addEventListener('click', () => {
+  searchInput.value = ''
+  search()
+})
