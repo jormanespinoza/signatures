@@ -8,17 +8,13 @@ const search = () => {
   trTags.forEach((tr) => {
     const tdTags = [...tr.children]
     tdTags.pop()
-
-    let match = false
+    let tdValues
 
     tdTags.forEach((td) => {
-      const tdValue = td.textContent || td.innerText
-      if (tdValue.toLowerCase().includes(searchInputValue)) {
-        match = true
-      }
+      tdValues += ' ' + td.textContent || td.innerText
     })
 
-    tr.style.display = match ? '' : 'none'
+    tr.style.display = tdValues.toLowerCase().includes(searchInputValue) ? '' : 'none'
   })
 }
 
