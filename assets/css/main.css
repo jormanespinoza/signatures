@@ -36,10 +36,8 @@ a:hover {
   color: #69b6d3;
 }
 
-a.download {
-  display: table;
-  margin: 0 auto;
-  padding-bottom: 15px;
+.links {
+  margin: 0 auto 15px;
   text-align: center;
 }
 

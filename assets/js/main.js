@@ -2,6 +2,24 @@ const searchInput = document.getElementById('search')
 const trTags = document.querySelectorAll('tbody tr')
 const h1 = document.querySelector('h1')
 
+const accents = 'ÀÁÂÃÄÅĄĀāàáâãäåąßÒÓÔÕÕÖØŐòóôőõöøĎďDŽdžÈÉÊËĘèéêëęðÇçČčĆćÐÌÍÎÏĪìíîïīÙÚÛÜŰùűúûüĽĹŁľĺłÑŇŃňñńŔŕŠŚŞšśşŤťŸÝÿýŽŻŹžżźđĢĞģğ'
+const accents_out = "AAAAAAAAaaaaaaaasOOOOOOOOoooooooDdDZdzEEEEEeeeeeeCcCcCcDIIIIIiiiiiUUUUUuuuuuLLLlllNNNnnnRrSSSsssTtYYyyZZZzzzdGGgg"
+const accents_map = new Map()
+
+for (const i in accents) {
+  accents_map.set(accents.charCodeAt(i), accents_out.charCodeAt(i))
+}
+
+const removeAccents = (str) => {
+  const text = new Array(str.length);
+  let x, i
+  for (i = 0; i < text.length; i++) {
+    text[i] = accents_map.get(x = str.charCodeAt(i)) || x;
+  }
+
+  return String.fromCharCode.apply(null, text);
+}
+
 const getTrTagsToShow = () => {
   const searchInputValues = searchInput.value.toLowerCase().split(' ')
   const matches = []
@@ -15,7 +33,7 @@ const getTrTagsToShow = () => {
     tdTags.forEach((td) => {
       searchInputValues.forEach((searchInputValue) => {
         const tdValue = td.textContent || td.innerText
-        if (!tdValue.toLowerCase().includes(searchInputValue.toLowerCase())) {
+        if (!removeAccents(tdValue.toLowerCase()).includes(removeAccents(searchInputValue.toLowerCase()))) {
           tr.style.display = 'none'
         } else {
           if (matches[counter]) {
