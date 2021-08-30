@@ -16,14 +16,12 @@ input#search {
   max-width: 250px;
   overflow: hidden;
   padding: 10px 15px 10px 40px;
-  width: 100%;
 }
 
 table {
   background: #fff;
   border-collapse: collapse;
   border-radius: 2px;
-  border-spacing: 1;
   margin: 0 auto;
   max-width: 800px;
   overflow: hidden;
@@ -92,6 +90,7 @@ table th.r {
 @media screen and (max-width: 35.5em) {
   table {
     display: block;
+    max-width: 300px;
   }
 
   table > *,
@@ -106,13 +105,13 @@ table th.r {
   }
 
   table tbody tr {
+    border-bottom: 1px solid #e5e5e5;
     height: auto;
     padding: 8px 0;
   }
 
   table tbody tr td {
     margin-bottom: 12px;
-    padding-left: 45%;
   }
 
   table tbody tr td:last-child {
