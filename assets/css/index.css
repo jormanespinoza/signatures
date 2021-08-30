@@ -1,0 +1,129 @@
+.links {
+  margin: 0 auto 15px;
+  text-align: center;
+}
+
+input#search {
+  background-image: url("../template/search-icon.png");
+  background-position: 10px 5px;
+  background-repeat: no-repeat;
+  border: 1px solid #bbb;
+  border-radius:2px;
+  display: block;
+  font-size: 14px;
+  margin-bottom: 12px;
+  margin: 0 auto 15px;
+  max-width: 250px;
+  overflow: hidden;
+  padding: 10px 15px 10px 40px;
+  width: 100%;
+}
+
+table {
+  background: #fff;
+  border-collapse: collapse;
+  border-radius: 2px;
+  border-spacing: 1;
+  margin: 0 auto;
+  max-width: 800px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+table * {
+  position: relative;
+}
+
+table td,
+table th {
+  padding-left: 8px;
+}
+
+table thead tr {
+  background: linear-gradient(45deg, #69b6d3, #60519c);
+  color: #fff;
+  font-size: 13px;
+  height: 40px;
+}
+
+table tbody tr {
+  border-bottom: 1px solid #e5e5e5;
+  height: 30px;
+}
+
+table tbody tr:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+table tbody tr:hover a {
+  color: #fff;
+}
+
+table tbody tr:hover a:hover {
+  color: #69b6d3;
+}
+
+table tbody tr:last-child {
+  border: 0;
+}
+
+table td,
+table th {
+  text-align: left;
+}
+
+table td.l,
+table th.l {
+  text-align: right;
+}
+
+table td.c,
+table th.c {
+  text-align: center;
+}
+
+table td.r,
+table th.r {
+  text-align: center;
+}
+
+@media screen and (max-width: 35.5em) {
+  table {
+    display: block;
+  }
+
+  table > *,
+  table tr,
+  table td,
+  table th {
+    display: block;
+  }
+
+  table thead {
+    display: none;
+  }
+
+  table tbody tr {
+    height: auto;
+    padding: 8px 0;
+  }
+
+  table tbody tr td {
+    margin-bottom: 12px;
+    padding-left: 45%;
+  }
+
+  table tbody tr td:last-child {
+    margin-bottom: 0;
+  }
+
+  table tbody tr td:before {
+    font-weight: 700;
+    left: 10px;
+    position: absolute;
+    top: 0;
+    width: 40%;
+  }
+}

@@ -1,0 +1,18 @@
+.manual {
+  line-height: 2;
+  margin: 0 auto;
+  max-width: 800px;
+
+}
+
+code {
+  background-color: #e5e5e5;
+  border-radius: 2px;
+  font-family:  Consolas, Courier New, monospace;
+  font-weight: bold;
+  padding: 1px 2px;
+}
+
+img {
+  max-width: 100%;
+}
