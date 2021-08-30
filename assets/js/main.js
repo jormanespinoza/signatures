@@ -3,18 +3,18 @@ const trTags = document.querySelectorAll('tbody tr')
 const h1 = document.querySelector('h1')
 
 const accents = 'ÀÁÂÃÄÅĄĀāàáâãäåąßÒÓÔÕÕÖØŐòóôőõöøĎďDŽdžÈÉÊËĘèéêëęðÇçČčĆćÐÌÍÎÏĪìíîïīÙÚÛÜŰùűúûüĽĹŁľĺłÑŇŃňñńŔŕŠŚŞšśşŤťŸÝÿýŽŻŹžżźđĢĞģğ'
-const accents_out = "AAAAAAAAaaaaaaaasOOOOOOOOoooooooDdDZdzEEEEEeeeeeeCcCcCcDIIIIIiiiiiUUUUUuuuuuLLLlllNNNnnnRrSSSsssTtYYyyZZZzzzdGGgg"
-const accents_map = new Map()
+const accentsOut = "AAAAAAAAaaaaaaaasOOOOOOOOoooooooDdDZdzEEEEEeeeeeeCcCcCcDIIIIIiiiiiUUUUUuuuuuLLLlllNNNnnnRrSSSsssTtYYyyZZZzzzdGGgg"
+const accentsMap = new Map()
 
 for (const i in accents) {
-  accents_map.set(accents.charCodeAt(i), accents_out.charCodeAt(i))
+  accentsMap.set(accents.charCodeAt(i), accentsOut.charCodeAt(i))
 }
 
 const removeAccents = (str) => {
-  const text = new Array(str.length);
-  let x, i
-  for (i = 0; i < text.length; i++) {
-    text[i] = accents_map.get(x = str.charCodeAt(i)) || x;
+  const text = new Array(str.length)
+  let x
+  for (let i = 0; i < text.length; i++) {
+    text[i] = accentsMap.get(x = str.charCodeAt(i)) || x;
   }
 
   return String.fromCharCode.apply(null, text);
