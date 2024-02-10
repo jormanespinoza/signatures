@@ -1,0 +1,488 @@
+[
+  {
+    "first_name": "Mercedes",
+    "last_name": "Aguirre",
+    "position": "Recepción",
+    "slug": "mercedes_aguirre"
+  },
+  {
+    "first_name": "Zoe",
+    "last_name": "Tarditi",
+    "position": "Recepción",
+    "slug": "zoe_tarditi"
+  },
+  {
+    "first_name": "Florencia",
+    "last_name": "Azqueta",
+    "position": "Comercial",
+    "slug": "florencia_azqueta"
+  },
+  {
+    "first_name": "Inés",
+    "last_name": "Bargalló",
+    "position": "Comercial",
+    "slug": "ines_bargallo"
+  },
+  {
+    "first_name": "Anita",
+    "last_name": "Baylay",
+    "position": "Comercial",
+    "slug": "anita_bayley"
+  },
+  {
+    "first_name": "Alejo",
+    "last_name": "Bergés",
+    "position": "DJ",
+    "slug": "alejo_berges"
+  },
+  {
+    "first_name": "Chule",
+    "last_name": "Bernardo",
+    "position": "Co-founder & DJ",
+    "slug": "chule_bernardo"
+  },
+  {
+    "first_name": "Maite",
+    "last_name": "Bertoldi",
+    "position": "",
+    "slug": "maite_bertoldi"
+  },
+  {
+    "first_name": "Martín",
+    "last_name": "Blum",
+    "position": "DJ",
+    "slug": "martin_blum"
+  },
+  {
+    "first_name": "Kevin",
+    "last_name": "Buhlman",
+    "position": "Producción",
+    "slug": "kevin_buhlman"
+  },
+  {
+    "first_name": "Yaco",
+    "last_name": "Doorn",
+    "position": "DJ & Productor",
+    "slug": "yaco_doorn"
+  },
+  {
+    "first_name": "Paula",
+    "last_name": "Gallardo",
+    "position": "DJ & Comercial",
+    "slug": "paula_gallardo"
+  },
+  {
+    "first_name": "Tati",
+    "last_name": "García Juanicó",
+    "position": "Co-founder & DJ",
+    "slug": "tati_garcia_juanico"
+  },
+  {
+    "first_name": "Rafael",
+    "last_name": "García Juanicó",
+    "position": "DJ",
+    "slug": "rafael_garcia_juanico"
+  },
+  {
+    "first_name": "Martín",
+    "last_name": "Gaviña",
+    "position": "DJ y Project Manager",
+    "slug": "martin_gavina"
+  },
+  {
+    "first_name": "Eduardo",
+    "last_name": "Gaviña Naón",
+    "position": "Producción",
+    "slug": "eduardo_gavina_naon"
+  },
+  {
+    "first_name": "Jean Paul",
+    "last_name": "Gilbert",
+    "position": "DJ & Comercial",
+    "slug": "jean_paul_gilbert"
+  },
+  {
+    "first_name": "Victoria",
+    "last_name": "Grosi",
+    "position": "Comercial",
+    "slug": "victoria_grosi"
+  },
+  {
+    "first_name": "Federico",
+    "last_name": "Ibarra",
+    "position": "DJ",
+    "slug": "federico_ibarra"
+  },
+  {
+    "first_name": "Martín",
+    "last_name": "Keller",
+    "position": "Producción",
+    "slug": "martin_keller"
+  },
+  {
+    "first_name": "Andrés",
+    "last_name": "Lett",
+    "position": "DJ",
+    "slug": "andres_lett"
+  },
+  {
+    "first_name": "Germán",
+    "last_name": "Marenzi",
+    "position": "Comercial",
+    "slug": "german_marenzi"
+  },
+  {
+    "first_name": "Karina",
+    "last_name": "Mariscal",
+    "position": "Administración",
+    "slug": "karina_mariscal"
+  },
+  {
+    "first_name": "Juan Diego",
+    "last_name": "Martínez Larrea",
+    "position": "Co-founder & DJ",
+    "slug": "juan_diego_martinez_larrea"
+  },
+  {
+    "first_name": "Francisco",
+    "last_name": "Martínez Larrea",
+    "position": "DJ",
+    "slug": "francisco_martinez_larrea"
+  },
+  {
+    "first_name": "Camila",
+    "last_name": "Martini",
+    "position": "Administración",
+    "slug": "camila_martini"
+  },
+  {
+    "first_name": "Lucio",
+    "last_name": "Mastroianni",
+    "position": "Producción",
+    "slug": "lucio_mastroianni"
+  },
+  {
+    "first_name": "Mateo",
+    "last_name": "Méndez",
+    "position": "DJ",
+    "slug": "mateo_mendez"
+  },
+  {
+    "first_name": "Juan Cruz",
+    "last_name": "Moliterno",
+    "position": "DJ",
+    "slug": "juan_cruz_moliterno"
+  },
+  {
+    "first_name": "Axel",
+    "last_name": "Murano",
+    "position": "DJ",
+    "slug": "axel_murano"
+  },
+  {
+    "first_name": "Benjamín",
+    "last_name": "Murano",
+    "position": "DJ & Label Manager",
+    "slug": "benjamin_murano"
+  },
+  {
+    "first_name": "Javi",
+    "last_name": "Noro",
+    "position": "Producción",
+    "slug": "javi_noro"
+  },
+  {
+    "first_name": "Florencia",
+    "last_name": "Ortiz",
+    "position": "Administración",
+    "slug": "florencia_ortiz"
+  },
+  {
+    "first_name": "Federico",
+    "last_name": "Ortiz",
+    "position": "Comercial",
+    "slug": "federico_ortiz"
+  },
+  {
+    "first_name": "Pableen",
+    "last_name": "Ámbar",
+    "position": "Productor Musical",
+    "slug": "pableen_ambar"
+  },
+  {
+    "first_name": "Mario",
+    "last_name": "Peluas",
+    "position": "Office Manager",
+    "slug": "mario_peluas"
+  },
+  {
+    "first_name": "Florencia",
+    "last_name": "Perego",
+    "position": "Comercial",
+    "slug": "florencia_perego"
+  },
+  {
+    "first_name": "Nicolás",
+    "last_name": "Rivaud",
+    "position": "DJ",
+    "slug": "nicolas_rivaud"
+  },
+  {
+    "first_name": "Andrés",
+    "last_name": "Rodríguez",
+    "position": "DJ & Comercial",
+    "slug": "andres_rodriguez"
+  },
+  {
+    "first_name": "Guido",
+    "last_name": "Santoro",
+    "position": "DJ & Productor",
+    "slug": "guido_santoro"
+  },
+  {
+    "first_name": "Tomás",
+    "last_name": "Sarapura",
+    "position": "DJ",
+    "slug": "tomas_sarapura"
+  },
+  {
+    "first_name": "Walter",
+    "last_name": "Sotelo",
+    "position": "DJ",
+    "slug": "walter_sotelo"
+  },
+  {
+    "first_name": "Gordoncho",
+    "last_name": "Tellado",
+    "position": "DJ",
+    "slug": "gordoncho_tellado"
+  },
+  {
+    "first_name": "Sofía",
+    "last_name": "Theule",
+    "position": "Administración",
+    "slug": "sofia_theule"
+  },
+  {
+    "first_name": "Esteban",
+    "last_name": "Toledo",
+    "position": "DJ & Producción",
+    "slug": "esteban_toledo"
+  },
+  {
+    "first_name": "Emiliano",
+    "last_name": "Valenzuela",
+    "position": "DJ",
+    "slug": "emiliano_valenzuela"
+  },
+  {
+    "first_name": "Santiago",
+    "last_name": "Vitale",
+    "position": "Producción",
+    "slug": "santiago_vitale"
+  },
+  {
+    "first_name": "Mon",
+    "last_name": "Zaefferer",
+    "position": "Marketing",
+    "slug": "mon_zaefferer"
+  },
+  {
+    "first_name": "Mariano",
+    "last_name": "Zappala",
+    "position": "DJ",
+    "slug": "mariano_zappala"
+  },
+  {
+    "first_name": "Stefania",
+    "last_name": "Fernández",
+    "position": "Comercial",
+    "slug": "stefania_fernandez"
+  },
+  {
+    "first_name": "Debbie",
+    "last_name": "Romano",
+    "position": "Asistente",
+    "slug": "debbie_romano"
+  },
+  {
+    "first_name": "Loli",
+    "last_name": "Pascual",
+    "position": "Administración",
+    "slug": "loli_pascual"
+  },
+  {
+    "first_name": "Julián",
+    "last_name": "Urristi",
+    "position": "Productor",
+    "slug": "julian_urristi"
+  },
+  {
+    "first_name": "Marcos",
+    "last_name": "Lopez Alcalá",
+    "position": "DJ",
+    "slug": "marcos_lopez_alcala"
+  },
+  {
+    "first_name": "Belén",
+    "last_name": "Roccasalvo",
+    "position": "Comercial",
+    "slug": "bellen_roccasalvo"
+  },
+  {
+    "first_name": "Julian",
+    "last_name": "Gallardo",
+    "position": "Productor",
+    "slug": "julian_gallardo"
+  },
+  {
+    "first_name": "Erwin",
+    "last_name": "Barletta",
+    "position": "DJ",
+    "slug": "erwin_barletta"
+  },
+  {
+    "first_name": "Felipe",
+    "last_name": "Brugo",
+    "position": "DJ",
+    "slug": "felipe_brugo"
+  },
+  {
+    "first_name": "Daian",
+    "last_name": "Acevedo",
+    "position": "DJ",
+    "slug": "daian_acevedo"
+  },
+  {
+    "first_name": "Olivia",
+    "last_name": "Rolleri Cinque",
+    "position": "Comercial",
+    "slug": "olivia_rolleri_cinque"
+  },
+  {
+    "first_name": "Sofia",
+    "last_name": "Piñero",
+    "position": "Comercial",
+    "slug": "sofia_pinero"
+  },
+  {
+    "first_name": "Sofia",
+    "last_name": "Lavagetto",
+    "position": "Administración",
+    "slug": "sofia_lavagetto"
+  },
+  {
+    "first_name": "Emi",
+    "last_name": "Valenzuela",
+    "position": "DJ",
+    "slug": "emi_valenzuela"
+  },
+  {
+    "first_name": "Martina",
+    "last_name": "Campisi",
+    "position": "Recepción",
+    "slug": "martina_campisi"
+  },
+  {
+    "first_name": "Estefania",
+    "last_name": "Pisotti",
+    "position": "Administración",
+    "slug": "estefania_pisotti"
+  },
+  {
+    "first_name": "Eliana",
+    "last_name": "Montani",
+    "position": "Asistente",
+    "slug": "eliana_montani"
+  },
+  {
+    "first_name": "Florencia",
+    "last_name": "Giunta",
+    "position": "Comercial",
+    "slug": "florencia_giunta"
+  },
+  {
+    "first_name": "Alejandro",
+    "last_name": "Clifton",
+    "position": "Diseño",
+    "slug": "alejandro_clifton"
+  },
+  {
+    "first_name": "Juan",
+    "last_name": "Baldera",
+    "position": "Operaciones",
+    "slug": "juan_baldera"
+  },
+  {
+    "first_name": "Carolina",
+    "last_name": "Herrera",
+    "position": "VJ",
+    "slug": "carolina_herrera"
+  },
+  {
+    "first_name": "Eugenia",
+    "last_name": "Grima",
+    "position": "Comercial",
+    "slug": "eugenia_grima"
+  },
+  {
+    "first_name": "Malu",
+    "last_name": "Menghini",
+    "position": "Marketing",
+    "slug": "malu_menghini"
+  },
+  {
+    "first_name": "Damián",
+    "last_name": "Pisani",
+    "position": "Administración",
+    "slug": "damian_pisani"
+  },
+  {
+    "first_name": "Antonella",
+    "last_name": "Castrogiovanni",
+    "position": "Comercial",
+    "slug": "antonella_castrogiovanni"
+  },
+  {
+    "first_name": "Juan",
+    "last_name": "Bardelas",
+    "position": "Producción",
+    "slug": "juan_bardelas"
+  },
+  {
+    "first_name": "Tomi",
+    "last_name": "Loughry",
+    "position": "IT Manager",
+    "slug": "tomi_loughry"
+  },
+  {
+    "first_name": "Juan Cruz",
+    "last_name": "Castillo",
+    "position": "Comercial",
+    "slug": "juan_cruz_castillo"
+  },
+  {
+    "first_name": "Chloé",
+    "last_name": "Vercelli",
+    "position": "Comercial",
+    "slug": "chloe_vercelli"
+  },
+  {
+    "first_name": "Christian",
+    "last_name": "Rodriguez",
+    "position": "Producción",
+    "slug": "christian_rodriguez"
+  },
+  {
+    "first_name": "Ezequiel",
+    "last_name": "Prestifilippo",
+    "position": "Contenidos Audiovisuales",
+    "slug": "ezequiel_prestifilippo"
+  },
+  {
+    "first_name": "Brenda",
+    "last_name": "Helering",
+    "position": "Recursos Humanos",
+    "slug": "brenda_hekering"
+  }
+]
