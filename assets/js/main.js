@@ -43,7 +43,6 @@ const buildMembersGrid = () => {
     trTags.forEach((tr) => {
       const tdTags = [...tr.children]
       tdTags.pop()
-
       tdTags.forEach((td) => {
         searchInputValues.forEach((searchInputValue) => {
           const tdValue = td.textContent || td.innerText
